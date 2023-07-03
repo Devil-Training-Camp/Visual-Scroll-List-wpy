@@ -19,7 +19,7 @@ import { reactive } from "vue";
 const scrollDataList = reactive([])
 
 //模拟后端数据
-for (let i = 1; i <= 1000; i++) {
+for (let i = 1; i <= 20000; i++) {
   scrollDataList.push({name:i})
 }
 </script>
